@@ -128,7 +128,7 @@ You can alter the default paper by using the following function:
 
 ### Default font
 
-By default, every text appears in Arial 10 point. You can alter the
+By default, every text appears in Arial 10 point with the color #FF0000. You can alter the
 default font by using the following two functions:
 
 ``` php
@@ -136,6 +136,7 @@ default font by using the following two functions:
 
 $phpWord->setDefaultFontName('Times New Roman');
 $phpWord->setDefaultFontSize(12);
+$phpWord->setDefaultFontColor("FF0000");
 ```
 
 ## Document settings
